@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet6" targetNamespace="http://tempuri.org/DataSet6.xsd" xmlns:mstns="http://tempuri.org/DataSet6.xsd" xmlns="http://tempuri.org/DataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet6" msprop:Generator_UserDSName="DataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Handung" msprop:Generator_TableClassName="HandungDataTable" msprop:Generator_TableVarName="tableHandung" msprop:Generator_RowChangedName="HandungRowChanged" msprop:Generator_TablePropName="Handung" msprop:Generator_RowDeletingName="HandungRowDeleting" msprop:Generator_RowChangingName="HandungRowChanging" msprop:Generator_RowEvHandlerName="HandungRowChangeEventHandler" msprop:Generator_RowDeletedName="HandungRowDeleted" msprop:Generator_RowClassName="HandungRow" msprop:Generator_UserTableName="Handung" msprop:Generator_RowEvArgName="HandungRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Makho" msprop:Generator_ColumnVarNameInTable="columnMakho" msprop:Generator_ColumnPropNameInRow="Makho" msprop:Generator_ColumnPropNameInTable="MakhoColumn" msprop:Generator_UserColumnName="Makho" type="xs:string" minOccurs="0" />
+              <xs:element name="MaHH" msprop:Generator_ColumnVarNameInTable="columnMaHH" msprop:Generator_ColumnPropNameInRow="MaHH" msprop:Generator_ColumnPropNameInTable="MaHHColumn" msprop:Generator_UserColumnName="MaHH" type="xs:string" minOccurs="0" />
+              <xs:element name="TenHH" msprop:Generator_ColumnVarNameInTable="columnTenHH" msprop:Generator_ColumnPropNameInRow="TenHH" msprop:Generator_ColumnPropNameInTable="TenHHColumn" msprop:Generator_UserColumnName="TenHH" type="xs:string" minOccurs="0" />
+              <xs:element name="HanSD" msprop:Generator_ColumnVarNameInTable="columnHanSD" msprop:Generator_ColumnPropNameInRow="HanSD" msprop:Generator_ColumnPropNameInTable="HanSDColumn" msprop:Generator_UserColumnName="HanSD" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SLHH" msprop:Generator_ColumnVarNameInTable="columnSLHH" msprop:Generator_ColumnPropNameInRow="SLHH" msprop:Generator_ColumnPropNameInTable="SLHHColumn" msprop:Generator_UserColumnName="SLHH" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
